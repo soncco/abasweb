@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html{{ html_attributes }}>
+  <head>
+    <head-placeholder token="{{ placeholder_token|raw }}">
+    <meta property="fb:app_id" content="1020088444717696" />
+    <title>{{ head_title|safe_join(' | ') }}</title>
+    <link rel="stylesheet" href="http://bootswatch.com/flatly/bootstrap.min.css">
+    <css-placeholder token="{{ placeholder_token|raw }}">
+    <js-placeholder token="{{ placeholder_token|raw }}">
+  </head>
+  <body{{ attributes }}>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1020088444717696',
+          xfbml      : true,
+          version    : 'v2.5'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/es_PE/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+    {{ page_top }}
+    {{ page }}
+    {{ page_bottom }}
+    <div id="toTop"><a href="#"><i class="fa fa-chevron-up"></i></a></div>
+    <js-bottom-placeholder token="{{ placeholder_token|raw }}">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+</html>

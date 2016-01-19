@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+@media (min-width: 768px) {
+  .navbar {
+      border-radius: 0px;
+  }
+}
+
+.navbar-abastecimiento.navbar {
+  margin-bottom: 0;
+}
+
+.welcome {
+  background: #18bc9c;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.welcome h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  width: 340px;
+  line-height: 1.4em;
+  margin-top: 0;
+}
+
+.welcome a {
+  color: #fff;
+}
+
+.welcome .try {
+  margin-top: 50px;
+  font-size:  20px;
+}
+
+.welcome .try span {
+  font-size: 30px;  
+}
+
+.welcome .try .fa-inverse {
+  color: transparent;
+}
+
+.welcome-text {
+  text-shadow: 1px 1px 0 rgba(10, 79, 66, 0.75);
+}
+
+.welcome .short {
+  font-size: 16px;
+  text-shadow: none;
+}
+
+.short-desc {
+  background: #f39c12;
+  color: #fff;
+  font-size: 16px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgba(187, 119, 11, 0.75);
+  font-weight: bold;
+}
+
+.callus {
+  background: #2c3134;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.callus .soporte {
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.welcome-container {
+  position: relative;
+}
+
+.animation {
+  top: 20px;
+  left: 20px;
+  position: absolute;
+}
+
+.animation .gif {
+  position: absolute;
+  top: 27px;
+  left: 67px;
+  z-index: 0;
+  width: 349px;
+  display: block;
+}
+
+.animation .laptop {
+  z-index: 5;
+  display: block;
+  width: 480px;
+  position: absolute;
+}
+
+span.grace {
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  color: #18bc9c;
+  font-weight: bold;
+}
+
+span.grace.grace-inverse {
+  color: #fff;
+}
+
+
+.modules, .contact {
+  background: #ecf0f1;
+}
+
+.modules .well {
+  background: #fff;
+}
+
+.footer {
+  background: #2c3134;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.footer p {
+  margin: 0;
+}
+
+#toTop {
+  padding: 1px 5px 5px 5px;
+  border-radius: 5px;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+#toTop:hover {
+  background-color: #000;
+}
+#toTop a {
+  color: #fff;
+}
+
+.text-normal {
+  color: #2c3131 !important; 
+}
